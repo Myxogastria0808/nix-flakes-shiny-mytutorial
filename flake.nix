@@ -21,7 +21,8 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [ R ] ++ rpkgs;
           shellHook = ''
-            Rscript ./src/run.R
+            cd ./src/
+            Rscript run.R
           '';
         };
       }

@@ -1,0 +1,14 @@
+.my-container {
+  max-width: 1024px;
+}
+.my-space {
+  width: 100%;
+  height: 100px;
+}
+.my-font {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.my-little-space {
+  width: 100%;
+  height: 50px;
+}
